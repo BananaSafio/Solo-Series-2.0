@@ -1,0 +1,298 @@
+[06:18:15] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.18.2
+[06:18:18] [ForkJoinPool-1-worker-1/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[06:18:18] [main/INFO]: Loading 147 mods:
+	- alternate-current 1.8.0
+	- appleskin 3.0.2+mc1.21
+	- architectury 13.0.6
+	- betteradvancements 0.4.2.16
+	- bridgingmod 2.4.0+1.21
+	- c2me 0.2.0+alpha.11.106+1.21
+	   |-- c2me-base 0.2.0+alpha.11.106+1.21
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.106+1.21
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.106+1.21
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.106+1.21
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.106+1.21
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.106+1.21
+	   |-- c2me-notickvd 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-math 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.106+1.21
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.106+1.21
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.106+1.21
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.106+1.21
+	   |-- c2me-server-utils 0.2.0+alpha.11.106+1.21
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.106+1.21
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.106+1.21
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.106+1.21
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- carryon 2.2.1
+	- cicada 0.8.1+1.21-and-above
+	- cloth-config 15.0.127
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.81
+	- elytraslot 9.0.0+1.21
+	   \-- mixinsquared 0.1.2-beta.6
+	- elytratrims 3.4.3
+	   \-- conditional-mixin 0.6.2
+	- entityculling 1.6.6
+	- fabric-api 0.100.4+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.67+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.28+6fc22b99d1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.48+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.27+6a6dfa19d1
+	   |-- fabric-commands-v0 0.2.65+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.14+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.15+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.3.2+78017270d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.24+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.9+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.10+e633f883d1
+	   |-- fabric-game-rule-api-v1 1.0.52+6573ed8cd1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.2+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.11+8f3583aed1
+	   |-- fabric-loot-api-v2 3.0.11+6573ed8cd1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.0+ab7edbacd1
+	   |-- fabric-object-builder-api-v1 15.1.12+d1321076d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.10+65089712d1
+	   |-- fabric-registry-sync-v0 5.0.23+78017270d1
+	   |-- fabric-renderer-api-v1 3.3.0+0ae0b97dd1
+	   |-- fabric-renderer-indigo 1.6.5+48fb1586d1
+	   |-- fabric-renderer-registries-v1 3.2.67+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.70+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.4+5a8c785ed1
+	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f344d1
+	   |-- fabric-resource-loader-v0 1.1.5+78017270d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.80+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.15+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8cd1
+	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fabrictailor 2.5.0
+	   |-- config2brigadier 1.2.3
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- fallingtree 1.21.0.5
+	- faster-random 4.1.0
+	- ferritecore 7.0.0
+	- forgeconfigapiport 21.0.0
+	   |-- com_electronwill_night-config_core 3.6.7
+	   \-- com_electronwill_night-config_toml 3.6.7
+	- ftblibrary 2100.1.4
+	- ftbultimine 2100.1.0
+	- infinitetrading 4.4
+	- java 21
+	- jumpoverfences 1.6.0
+	- lithium 0.12.8+git.427dd75
+	- minecraft 1.21
+	- modernfix 5.18.3+mc1.21
+	- nightvision 1.1
+	- no-resource-pack-warnings 1.3.0
+	- nochatreports 1.21-v2.8.0
+	- noisium 2.2.0+mc1.21
+	- notenoughanimations 1.7.4
+	- replantingcrops 5.3
+	- showmeyourskin 1.11.1+1.21
+	   |-- cardinal-components-base 6.1.0
+	   \-- cardinal-components-entity 6.1.0
+	- shulkerboxtooltip 5.0.2+1.21
+	- shulkerdropstwo 3.3
+	- silk-all 1.10.7
+	   |-- silk-commands 1.10.7
+	   |-- silk-core 1.10.7
+	   |-- silk-game 1.10.7
+	   |-- silk-igui 1.10.7
+	   |-- silk-nbt 1.10.7
+	   |-- silk-network 1.10.7
+	   \-- silk-persistence 1.10.7
+	- sit 1.21-28
+	- skinlayers3d 1.6.6
+	- sound_physics_remastered 1.21-1.4.3
+	- tcdcommons 3.12.2+fabric-1.21
+	- trade_cycling 1.21-1.0.13
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	   \-- fabric-screen-api-v1 2.0.24+b559734490
+	- trinkets 3.10.0
+	   |-- cardinal-components-base 6.1.0
+	   \-- cardinal-components-entity 6.1.0
+	- veinminer 2.0.7
+	   |-- de_miraculixx_core 2.0.7
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- vmp 0.2.0+beta.7.162+1.21
+	   \-- com_ibm_async_asyncutil 0.1.0
+	- voicechat 1.21-2.5.19
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	- waveycapes 1.4.8
+	- weaponmaster_ydm 4.2.3
+	- xaerominimap 24.2.1
+	- xaeroworldmap 1.38.8
+	- yet_another_config_lib_v3 3.5.0+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[06:18:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Solo-Series-2.0/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[06:18:19] [main/INFO]: Compatibility level set to JAVA_16
+[06:18:19] [main/INFO]: Compatibility level set to JAVA_21
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[06:18:20] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[06:18:20] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:18:20] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.6 (*) (defined in c2me)
+[06:18:20] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[06:18:20] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[06:18:20] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[06:18:20] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[06:18:20] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06:18:20] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[06:18:20] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 1 override(s) found
+[06:18:20] [main/INFO]: Loaded configuration file for ModernFix 5.18.3+mc1.21: 55 options available, 4 override(s) found
+[06:18:20] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[06:18:20] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[06:18:20] [main/WARN]: Option 'mixin.perf.nbt_memory_usage' overriden (by mods [c2me]) to 'false'
+[06:18:20] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[06:18:20] [main/INFO]: Applying Nashorn fix
+[06:18:20] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[06:18:21] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[06:18:21] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[06:18:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[06:18:25] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:18:25] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[06:18:25] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[06:18:26] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[06:18:30] [main/INFO]: Vanilla bootstrap took 6870 milliseconds
+[06:18:30] [main/INFO]: Loading Collective version 7.81.
+[06:18:30] [main/INFO]: Loaded C2B lib.
+[06:18:31] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[06:18:31] [main/INFO]: Registering C2S receiver with id ftbultimine:key_pressed_packet
+[06:18:31] [main/INFO]: Registering C2S receiver with id ftbultimine:mode_changed_packet
+[06:18:31] [main/INFO]: Registering C2S receiver with id ftbultimine:sync_config_to_server_packet
+[06:18:31] [main/INFO]: Loading Noisium.
+[06:18:31] [main/INFO]: Initializing Silk
+[06:18:31] [main/INFO]: [voicechat] Compatibility version 18
+[06:18:31] [main/INFO]: [voicechat] Loading plugins
+[06:18:31] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[06:18:31] [main/INFO]: [voicechat] Initializing plugins
+[06:18:31] [main/INFO]: Initializing Simple Voice Chat integration
+[06:18:31] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[06:18:31] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[06:18:31] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[06:18:31] [main/INFO]: Initializing 'TCD Commons API' 3.12.2+fabric-1.21 as 'TCDCommonsServer'.
+[06:18:32] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[06:18:32] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[06:18:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:18:36] [main/INFO]: Loaded 1293 recipes
+[06:18:36] [main/INFO]: Loaded 1399 advancements
+[06:18:36] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.917 ms
+[06:18:36] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[06:18:36] [Server thread/INFO]: Starting minecraft server version 1.21
+[06:18:36] [Server thread/INFO]: Loading properties
+[06:18:36] [Server thread/INFO]: Default game type: SURVIVAL
+[06:18:36] [Server thread/INFO]: Generating keypair
+[06:18:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:18:37] [Server thread/INFO]: Using epoll channel type
+[06:18:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:18:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:18:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:18:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:18:37] [Server thread/INFO]: Preparing level "world"
+[06:18:37] [Server thread/INFO]: Enforcing safe world random access
+[06:18:38] [Server thread/INFO]: Changing watch distance to 10
+[06:18:38] [Server thread/INFO]: skipping unknown option 'enabledtrueupdate-order' in Alternate Current config
+[06:18:43] [Server thread/INFO]: Changing watch distance to 10
+[06:18:43] [Server thread/INFO]: Changing watch distance to 10
+[06:18:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:18:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:18:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[06:18:44] [Worker-Main-1/INFO]: Preparing spawn area: 71%
+[06:18:45] [Server thread/INFO]: Time elapsed: 1285 ms
+[06:18:45] [Server thread/INFO]: Done (7.818s)! For help, type "help"
+[06:18:45] [Server thread/WARN]: Dedicated server took 38.406 seconds to load
+[06:18:45] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[06:18:45] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[06:18:45] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[06:18:45] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[06:18:51] [Server thread/INFO]: vDracox[/127.3.61.129:42779] logged in with entity id 8 at (-17.733171317314238, 58.15867047446962, -9.226852276586559)
+[06:18:51] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[06:18:51] [Server thread/INFO]: vDracox joined the game
+[06:18:51] [Server thread/INFO]: [showmeyourskin] Client of vDracox accepted server config.
+[06:18:51] [Server thread/INFO]: [voicechat] Received secret request of vDracox (18)
+[06:18:51] [Server thread/INFO]: [voicechat] Sent secret to vDracox
+[06:18:51] [Server thread/INFO]: [ShulkerBoxTooltip] vDracox: protocol version: 2.0
+[06:18:51] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[06:18:51] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
+[06:18:51] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[06:18:52] [Server thread/INFO]: Async chunk loading for player vDracox completed
+[06:19:03] [Server thread/INFO]: vDracox has made the advancement [Free the End]
+[06:19:39] [Server thread/INFO]: Async chunk loading for player vDracox completed
+[06:20:27] [Server thread/INFO]: vDracox lost connection: Disconnected
+[06:20:27] [Server thread/INFO]: vDracox left the game
+[06:20:27] [Server thread/INFO]: [voicechat] Disconnecting client vDracox
+[06:20:38] [Server thread/INFO]: Stopping the server
+[06:20:38] [Server thread/INFO]: Stopping server
+[06:20:38] [Server thread/INFO]: Saving players
+[06:20:38] [Server thread/INFO]: Saving worlds
+[06:20:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:20:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:20:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:20:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:20:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:20:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:20:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
